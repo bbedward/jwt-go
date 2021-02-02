@@ -2,8 +2,9 @@ package jwt_test
 
 import (
 	"fmt"
-	"github.com/form3tech-oss/jwt-go"
 	"time"
+
+	"github.com/bbedward/jwt-go"
 )
 
 // Example (atypical) using the StandardClaims type by itself to parse a token.

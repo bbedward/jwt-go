@@ -1,8 +1,9 @@
 package request
 
 import (
-	"github.com/form3tech-oss/jwt-go"
 	"net/http"
+
+	"github.com/bbedward/jwt-go"
 )
 
 // Extract and parse a JWT token from an HTTP request.

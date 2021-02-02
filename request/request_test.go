@@ -2,13 +2,14 @@ package request
 
 import (
 	"fmt"
-	"github.com/form3tech-oss/jwt-go"
-	"github.com/form3tech-oss/jwt-go/test"
 	"net/http"
 	"net/url"
 	"reflect"
 	"strings"
 	"testing"
+
+	"github.com/bbedward/jwt-go"
+	"github.com/bbedward/jwt-go/test"
 )
 
 var requestTestData = []struct {
